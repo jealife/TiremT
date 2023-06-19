@@ -392,7 +392,9 @@ main {
     .bottom-hero {
         flex: 1;
         display: flex;
+        flex-direction: column;
         gap: 25px;
+        flex-wrap: wrap;
     }
 
     .section-one {
@@ -409,7 +411,8 @@ main {
     .section-one {
         width: max-content;
         display: flex;
-        gap: 25px;
+        gap: 20px;
+        flex-direction: row;
     }
 
     .section-two {
@@ -417,11 +420,12 @@ main {
         padding: 0;
     }
     .text-sec{
+        font-size: 1.2rem;
         border-radius: 25px;
         position: relative;
         padding: 15px;
         width: 100%;
-        height: 100%;
+        height: 200px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
