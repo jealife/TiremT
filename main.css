@@ -392,10 +392,6 @@ main {
         width: 100%;
     }
 
-    .section-one p {
-        columns: 2;
-    }
-
 
     .section-two,
     .section-three {
