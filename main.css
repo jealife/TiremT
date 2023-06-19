@@ -310,7 +310,6 @@ main {
     flex: 3;
     background-color: #a53e9c;
     border-radius: 25px;
-    padding: 20px;
     background-image: url(https://images.unsplash.com/photo-1514536828035-96ef0e33bffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
     background-position: left;
     background-repeat: no-repeat;
@@ -320,7 +319,8 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}.text-sec{
+}
+.text-sec{
     border-radius: 25px;
     position: relative;
     padding: 15px;
@@ -329,7 +329,17 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}.text-sec2{
+    border-radius: 25px;
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 
 .section-three {
     background-image: url(https://images.unsplash.com/photo-1544982590-068dabc956dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=787&q=80);
@@ -337,10 +347,10 @@ main {
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
     flex: 2;
     background-color: var(--green);
     border-radius: 25px;
-    padding: 20px;
 }
 
 
@@ -407,7 +417,9 @@ main {
 
     .section-two,
     .section-three {
-        height: 200px;
+        /* height: 200px; */
+        width: 100%;
+        padding: 0;
     }
 
     .section-one {
@@ -417,11 +429,6 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-    }
-
-    .section-two {
-        width: 100%;
-        padding: 0;
     }
     .text-sec{
         font-size: 1.2rem;
@@ -435,10 +442,17 @@ main {
         align-items: center;
         background-color: #0000006b;
     }
-
-
-    .section-three {
-        display: none;
+    .text-sec2{
+        font-size: 1.2rem;
+        border-radius: 25px;
+        position: relative;
+        padding: 15px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #0000006b;
     }
 
 }
