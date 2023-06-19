@@ -383,8 +383,8 @@ main {
     .bottom-hero {
         flex: 1;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 25px;
     }
 
     .section-one {
