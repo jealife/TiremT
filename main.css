@@ -404,6 +404,10 @@ main {
         gap: 15px;
     }
 
+    .links-hero a:nth-child(1) {
+        box-shadow: #d3dadaa4 5px 9px 15px, #f6ffff -9px -9px 15px;
+    }
+
     .check-menu {
         padding: 0.5rem 0.5rem;
     }
