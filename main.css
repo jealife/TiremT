@@ -182,7 +182,7 @@ main {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap:35px;
+    gap: 10px;
     justify-content: center;
 
 
@@ -322,7 +322,8 @@ main {
     justify-content: flex-end;
     align-items: center;
 }
-.text-sec{
+
+.text-sec {
     border-radius: 25px;
     position: relative;
     padding: 15px;
@@ -331,7 +332,9 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}.text-sec2{
+}
+
+.text-sec2 {
     border-radius: 25px;
     position: relative;
     padding: 15px;
@@ -364,11 +367,12 @@ main {
 /* ------hero--- */
 @media only screen and (max-width: 780px) {
     header {
-    width: 100%;
-    display: flex;
-    padding: 30px 12px;
-    position: absolute;
-}
+        width: 100%;
+        display: flex;
+        padding: 30px 12px;
+        position: absolute;
+    }
+
     nav {
         width: 100%;
         display: flex;
@@ -380,6 +384,7 @@ main {
 
     .hero {
         padding: 60px 15px 0;
+        gap: 0;
     }
 
     .top-first {
@@ -438,7 +443,8 @@ main {
         flex-wrap: wrap;
         width: 100%;
     }
-    .text-sec{
+
+    .text-sec {
         font-size: 1.2rem;
         border-radius: 25px;
         position: relative;
@@ -450,7 +456,8 @@ main {
         align-items: center;
         background-color: #0000006b;
     }
-    .text-sec2{
+
+    .text-sec2 {
         font-size: 1.2rem;
         border-radius: 25px;
         position: relative;
