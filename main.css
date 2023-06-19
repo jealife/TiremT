@@ -383,7 +383,7 @@ main {
     }
 
     .top-first {
-        gap: 55px;
+        gap: 25px;
     }
 
     .top-second {
@@ -392,7 +392,7 @@ main {
 
     .top-first h1 {
         line-height: 4rem;
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
 
     .links-hero {
