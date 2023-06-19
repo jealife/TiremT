@@ -373,7 +373,8 @@ main {
     }
 
     .top-first h1 {
-        line-height: 4.2rem;
+        line-height: 4rem;
+        font-size: 3rem;
     }
 
     .links-hero {
@@ -386,6 +387,7 @@ main {
 
     .how-order {
         padding: 0.5rem 0.5rem;
+        gap: 0;
 
     }
 
@@ -405,7 +407,7 @@ main {
 
     .section-two,
     .section-three {
-        height: 222px;
+        height: 200px;
     }
 
     .section-one {
@@ -413,6 +415,8 @@ main {
         display: flex;
         gap: 20px;
         flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .section-two {
