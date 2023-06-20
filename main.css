@@ -18,7 +18,12 @@ html {
     --text-primary: #263238;
     --text-secon: #37474f;
 }
-
+h1,h2,h3{
+    color: var(--text-primary);
+}
+p,span{
+    color: var(--text-secon);
+}
 body {
     background: #f1feffa4;
 }
@@ -112,9 +117,16 @@ main {
     box-shadow: #d3dadaa4 5px 9px 15px, #f6ffff -9px -9px 15px;
 
 }
-
-.btn-contact:hover,
+.check-menu {
+    background-color: var(--orange-primary);
+    transition: .5s;
+    /* box-shadow: #f7bb42b0 5px 9px 15px; */
+}
 .check-menu:hover {
+    background-color: #f7bc42;
+    box-shadow: #f7bb42b0 5px 9px 15px;
+}
+.btn-contact:hover {
     background-color: var(--orange-primary);
     box-shadow: #f7bb42b0 5px 9px 15px;
 }
@@ -152,7 +164,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    padding: 25px 30px 0;
+    padding: 30px 30px 0;
     top: 0;
     gap: 25px;
     width: 100%;
@@ -377,7 +389,7 @@ main {
 
 
 
-/* -------------------------------  responsive -------------- */
+/* -------------------------------  responsive --------------------------- */
 
 
 /* ------hero--- */
