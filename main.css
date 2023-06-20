@@ -36,6 +36,7 @@ header {
     display: flex;
     padding: 30px;
     position: absolute;
+    /* justify-content: flex-start; */
 
 }
 
@@ -46,6 +47,7 @@ nav {
     justify-content: space-between;
     position: absolute;
     z-index: 99;
+    max-width: 1400px;
     padding-right: 45px;
 }
 
@@ -64,6 +66,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -168,7 +171,8 @@ main {
     top: 0;
     gap: 25px;
     width: 100%;
-    max-width: 1386px;
+    max-width: 1400px;
+    scroll-snap-align: start;
 }
 
 .top-hero {
