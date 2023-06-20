@@ -324,10 +324,13 @@ main {
 .section-one {
     color: var(--text-secon);
     flex: 2;
-    padding: 0 20px 10px 0;
+    padding: 0 20px 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.section-one p{
+    font-size: 1.3rem;
 }
 
 .section-two {
