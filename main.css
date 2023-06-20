@@ -5,7 +5,11 @@
     font-family: Poppins;
     font-family: Nunito;
 }
+html {
 
+    scroll-behavior:  smooth ;
+    /* transition: all 1s ease-in-out; */
+}
 :root {
     --green: #84ca64;
     --orange-primary: #faa70a;
@@ -17,9 +21,7 @@
 
 body {
     background: #f1feffa4;
-    scroll-behavior: smooth;
 }
-
 a {
     text-decoration: none;
 }

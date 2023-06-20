@@ -22,7 +22,7 @@
         <script async
             src="https://www.googletagmanager.com/gtag/js?id=G-J2HYCCDD46"></script>
         <title>TremT</title>
-        <link rel="icon" type="image/png" href="images/Sphère TiremT.png">
+        <link rel="icon" type="image/png" href="assets/images/Sphère TiremT.png">
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <link rel="stylesheet"
@@ -36,15 +36,18 @@
             rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+        <link rel="stylesheet" href="css/styles.css">
 
     </head>
     <body>
+
+        
         <header>
+            <!-- barre de navigation  -->
             <nav class="home-nav">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/Logo tiremt.png" alt="Logo TiremT"
+                        <img src="assets/images/Logo tiremt.png" alt="Logo TiremT"
                             width="95px">
                     </a>
                 </div>
@@ -52,9 +55,11 @@
                     <a href="#" class="btn-contact"> Contact</a>
                 </div>
             </nav>
+
         </header>
 
         <main>
+             <!-- hero section  -->
             <div class="hero">
                 <div class="top-hero">
                     <div class="top-first">
@@ -65,7 +70,7 @@
                             <a class="check-menu" href="#">
                                 Check menu
                             </a>
-                            <a class="how-order" href="#"><i
+                            <a class="how-order" href="#how-to-order"><i
                                     class='bx bx-play-circle'></i>How to order</a>
                         </div>
                     </div>
@@ -124,15 +129,37 @@
                     </div>
                 </div>
             </div>
-            <br><br><br>
+            <br>
+
+            <!-- horder steps section -->
+            <div class="order-steps" id="how-to-order">
+                <div class="head-steps">
+                    <h2>How To Order</h2>
+                    <!-- <span style="height:1px; width: 17%; margin-left: auto;margin-right:auto;background-color:#414141"></span> -->
+                </div>
+                <div class="steps-container">
+                    <div class="step step-one">
+                        <img src="assets/images/Order food-pana.png" alt="Order">
+                        <p>Choose your meal</p>
+                    </div>
+                    <div class="step step-two">
+                        <img src="assets/images/Payment Information-bro.png" alt="">
+                        <p>Order and pay online</p>
+                    </div>
+                    <div class="step step-three">
+                        <img src="assets/images/In no time-pana.png" alt="">
+                        
+                        <p>Get it delivered to you!</p>
+                    </div>
+
+                </div>
+            </div>
         </main>
 
         <footer>
 
         </footer>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 
         <script>
                 let slideIndex = 0;

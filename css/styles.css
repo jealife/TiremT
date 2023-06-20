@@ -1,0 +1,25 @@
+.order-steps{
+    padding: 50px 20px;
+    min-height: 60vh;
+    min-height: 60dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50px 0 50px 0;
+}
+.steps-container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-grow: 280px;
+}
+.step img{
+    width: 300px;
+}
