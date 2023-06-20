@@ -458,7 +458,8 @@ main {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        background-color: #0000006b;
+        background: #141414;
+        background: linear-gradient(-90deg, #141414f2 0%, #1a1919d0 30%, #2d2a2a00 64%);
     }
 
     .text-sec2 {
@@ -470,8 +471,8 @@ main {
         height: 200px;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
-        background-color: #0000006b;
+        background: #141414;
+        background: linear-gradient(90deg, #141414f2 0%, #1a1919d0 30%, #2d2a2a00 64%);
     }
 
 }
