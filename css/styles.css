@@ -141,7 +141,7 @@
     flex-flow: row;
     grid-auto-flow: column;
     gap: 25px;
-    max-width: 1200px;
+    max-width: 980px;
     width: 900px;
 
 }
