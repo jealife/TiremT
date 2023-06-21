@@ -121,8 +121,9 @@
     width: 100%;
     max-width: 1200px;
     padding: 50px 20px;
-    min-height: 90vh;
-    min-height: 90dvh;
+    min-height: 80vh;
+    min-height: 80dvh;
+    align-items: center;
 }
 
 .diet-container {
@@ -368,13 +369,13 @@
 .review h4
 {
 	font-size: 1.4rem;
-	color: #F3DEFF;
+	color: #ffffff;
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 0.8rem;
 }
 .review.dark h4{
-	color:#4B5258;
+	color: var(--text-secon);
 }
 .review p
 {
