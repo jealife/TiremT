@@ -152,7 +152,7 @@
 .Breakfasts {
     flex: 1;
     border-radius: 25px;
-    background-image: url(https://unsplash.it/1001);
+    background-image: url(https://images.unsplash.com/photo-1664192579009-07ded37d50e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@
 .Lunches {
     flex: 1;
     border-radius: 25px;
-    background-image: url(https://unsplash.it/1002);
+    background-image: url(https://images.unsplash.com/photo-1569419927926-8d097e621683?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,7 +180,7 @@
 .Dinners {
     flex: 1;
     border-radius: 25px;
-    background-image: url(https://unsplash.it/1003);
+    background-image: url(https://images.unsplash.com/photo-1586511925558-a4c6376fe65f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@
 .Snacks {
     flex: 1;
     border-radius: 25px;
-    background-image: url(https://unsplash.it/1004);
+    background-image: url(https://images.unsplash.com/photo-1601912262364-3a35aa0d9399?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
