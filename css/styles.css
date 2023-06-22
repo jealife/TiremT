@@ -456,6 +456,10 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    -webkit-backgroud-position: center;
+    -webkit-background-size: cover;
+    -webkit-background-attachment: fixed;
+    
     min-height: 40vh;
     min-height: 40dvh;
     height: 100%;
@@ -551,6 +555,32 @@
     color: var(--text-secon);
 }
 
+
+
+/* --------------------------- footer ----------------------- */
+
+footer{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 50px 20px;
+    max-width: 1200px;
+    position: relative;
+    height: 500px;
+    margin-top: 2rem;
+}
+.footer-container{
+    z-index: -55;
+    justify-self: center;
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    border-radius: 25px;
+    width: 98%;
+    background-color: #6da86d;
+    height: 500px;
+
+}
 /* -------------------------------  responsive --------------------------- */
 
 @media only screen and (max-width: 1000px) {

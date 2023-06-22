@@ -24,8 +24,8 @@ h1,h2,h3{
 p,span{
     color: var(--text-secon);
 }
-body {
-    background: #f1feffa4;
+body,main {
+    background: #f1feff;
 }
 a {
     text-decoration: none;
@@ -120,15 +120,17 @@ main {
     box-shadow: #d3dadaa4 5px 9px 15px, #f6ffff -9px -9px 15px;
 
 }
+
 .check-menu {
     background-color: var(--orange-primary);
     transition: .5s;
-    /* box-shadow: #f7bb42b0 5px 9px 15px; */
 }
+
 .check-menu:hover {
     background-color: #f7bc42;
     box-shadow: #f7bb42b0 5px 9px 15px;
 }
+
 .btn-contact:hover {
     background-color: var(--orange-primary);
     box-shadow: #f7bb42b0 5px 9px 15px;
@@ -203,8 +205,6 @@ main {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-
-
 }
 
 .top-first h1 {
@@ -400,7 +400,7 @@ main {
 
 
 /* ------hero--- */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 834px) {
     header {
         width: 100%;
         display: flex;
