@@ -56,6 +56,7 @@
 
 /* -----------------  about section------------------ */
 .about {
+    max-width: 1200px;
     min-height: 85vh;
     min-height: 85dvh;
     display: flex;
@@ -406,8 +407,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    min-height: 20vh;
-    min-height: 20dvh;
     width: 100%;
     margin-bottom: 3rem;
 }
@@ -442,8 +441,8 @@
 
 .btn-order-container {
     width: 100%;
-    min-height: 65vh;
-    min-height: 65dvh;
+    min-height: 40vh;
+    min-height: 40dvh;
     height: 100%;
     display: grid;
     place-items: center;
