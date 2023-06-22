@@ -115,6 +115,10 @@
 
 /* -+---------- diet section --------- */
 .diet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 35px;
     width: 100%;
     max-width: 1200px;
@@ -127,8 +131,9 @@
     margin: 50px;
     width: 100%;
     display: flex;
+    align-items: center;
     gap: 25px;
-    max-width: 900px;
+    justify-content: center;
 }
 
 .diet-container img {
@@ -142,7 +147,6 @@
     flex-flow: row;
     grid-auto-flow: column;
     gap: 25px;
-    max-width: 980px;
     width: 900px;
 }
 
