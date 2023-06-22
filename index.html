@@ -293,7 +293,7 @@
                                     about the program. The entire curriculum and
                                     staff did not disappoint. They were very
                                     hands-on and I never had to wait long for
-                                    assistance.  ”</p>
+                                    assistance. ”</p>
                             </div>
                         </div>
                         <!-- div4 -->
@@ -346,8 +346,6 @@
                 </div>
             </div>
 
-
-
             <!-- btn-order -->
             <div class="order-section-image">
                 <div class="btn-order-container">
@@ -359,11 +357,39 @@
                 </div>
             </div>
 
-
-                <!-- FAQ -->
+            <!-- FAQ -->
 
             <div class="faq-section">
-                
+                <div class="faq-title">
+                    <h2>More question ?</h2>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Question 1</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Repellendus, aliquid.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Question 2</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Repellendus, aliquid.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Repellendus, aliquid.</p>
+                    </div>
+                </div>
             </div>
         </main>
 
@@ -372,26 +398,45 @@
         </footer>
 
         <script>
-                let slideIndex = 0;
-                showSlides();
-                
-                function showSlides() {
-                  let i;
-                  let slides = document.getElementsByClassName("mySlides");
-                  let dots = document.getElementsByClassName("dot");
-                  for (i = 0; i < slides.length; i++) {
+
+            // Slider script
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";  
-                  }
-                  slideIndex++;
-                  if (slideIndex > slides.length) {slideIndex = 1}    
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex-1].style.display = "block";  
-                  dots[slideIndex-1].className += " active";
-                  setTimeout(showSlides, 9000); // Change image every 2 seconds
                 }
-                </script>
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 9000); 
+            }
+
+            // Accordeon script
+            const accordeonItems =document.querySelectorAll(".accordion-item");
+
+            accordeonItems.forEach(item=>{
+                const header=item.querySelector(".accordion-header");
+                header.addEventListener("click", ()=>{
+                    item.classList.toggle("show");
+                   /* if(!item.classList.contains('show')){
+                        header.setAttribute("aria-expanded","false")
+                    }else{
+                        header.setAttribute("aria-expanded","true")
+                    }; */
+
+                })
+            });
+
+        </script>
 
     </body>
 </html>

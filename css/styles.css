@@ -263,7 +263,7 @@
 }
 
 /* ---------------------- testimonials ---------------- */
-.testimonial{
+.testimonial {
     padding: 45px 0 0 0;
     gap: 2px;
     display: flex;
@@ -272,6 +272,7 @@
     justify-content: center;
     background-color: #fbfdfd;
 }
+
 .outerdiv {
     width: 100%;
     min-height: 100vh;
@@ -424,10 +425,13 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
-.btn-order-container h2, .btn-order-container p{
+
+.btn-order-container h2,
+.btn-order-container p {
     color: #fff;
     z-index: 2;
 }
+
 .btn-order {
     z-index: 2;
     font-size: 1.2rem;
@@ -462,6 +466,68 @@
     gap: 24px;
 }
 
+
+
+/* ---------------------  FAQ ------------------- */
+
+
+.faq-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.accordion-header {
+    outline: var(--green) 1.5px solid;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+/* .accordion-header h3 {
+    color: #fff;
+
+} */
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    background-color: #fff;
+    outline: transparent 1.5px solid;
+    border-radius: 12px;
+}
+
+.accordion-item.show .accordion-content {
+    max-height: 200px;
+    outline: var(--orange-second) 1.5px solid;
+    margin-top: 0.5rem;
+}
+
+.accordion-header.show {
+    background-color: var(--orange-second);
+}
+
+.accordion-content p {
+    margin: 0;
+    padding: 20px;
+    color: var(--text-secon);
+}
+
+/* -------------------------------  responsive --------------------------- */
+
 @media only screen and (max-width: 1000px) {
     .innerdiv {
         transform: scale(0.7);
@@ -487,10 +553,6 @@
         margin-bottom: 5rem;
     }
 }
-
-
-
-/* -------------------------------  responsive --------------------------- */
 
 
 
