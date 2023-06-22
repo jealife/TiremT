@@ -401,7 +401,6 @@
 
 .order-section-image {
     position: relative;
-    background: #1414144d;
     width: 100%;
     margin-bottom: 3rem;
 }
@@ -414,10 +413,11 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background: #0000005d  ;
+    background: #201f1f6e;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
+
 .btn-order {
     cursor: pointer;
     z-index: 2;
@@ -442,14 +442,12 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    width: 100%;
     min-height: 40vh;
     min-height: 40dvh;
     height: 100%;
     display: grid;
     position: relative;
     place-items: center;
-    background: #201f1f6e;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -514,7 +512,13 @@
         display: none;
     }
 
-    .order-section-image {
+    .order-section-image,
+    .btn-order-container {
         padding: 0 15px;
+        border-radius: 25px;
+    }
+
+    .btn-order-container::before {
+        border-radius: 25px;
     }
 }
