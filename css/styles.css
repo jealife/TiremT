@@ -512,6 +512,10 @@
     .diet-left::-webkit-scrollbar {
         display: none;
     }
+
+    .order-section-image{
+        margin:0 15px;
+    }
 }
 
 
