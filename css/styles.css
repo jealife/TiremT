@@ -115,18 +115,16 @@
 
 /* -+---------- diet section --------- */
 .diet {
-    display: flex;
-    flex-direction: column;
     gap: 35px;
     width: 100%;
     max-width: 1200px;
     padding: 50px 20px;
     min-height: 80vh;
     min-height: 80dvh;
-    align-items: center;
 }
 
 .diet-container {
+    margin: 50px;
     width: 100%;
     display: flex;
     gap: 25px;
@@ -147,7 +145,8 @@
     max-width: 980px;
     width: 900px;
 }
-.diet-left ::-webkit-scrollbar{
+
+.diet-left ::-webkit-scrollbar {
     display: none;
 }
 
@@ -206,6 +205,7 @@
     width: 265px;
     height: 315px;
 }
+
 .diet-title h2 {
     text-align: center;
     font-weight: 800;
@@ -243,7 +243,7 @@
     color: #fff;
     font-size: 1rem;
     position: relative;
-    padding: 0.5rem  ;
+    padding: 0.5rem;
     background: var(--orange-second);
     border-radius: 10px;
 
@@ -256,11 +256,11 @@
     top: 100%;
     right: 0%;
 }
+
 /* ---------------------- testimonial ---------------- */
 
-.outerdiv
-{
-	width: 100%;
+.outerdiv {
+    width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
     /* background: #0e2847; */
@@ -271,157 +271,210 @@
     justify-content: center;
     background-color: #fbfdfd;
 }
-.innerdiv
-{
-	transform: scale(0.9);
-	margin: 1rem;
-	display: grid;
-	grid-gap: 1.5rem;
-	grid-template-rows: repeat(2,22rem);
-	grid-template-columns: repeat(4,17rem);
+
+.innerdiv {
+    transform: scale(0.9);
+    margin: 1rem;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-rows: repeat(2, 22rem);
+    grid-template-columns: repeat(4, 17rem);
 }
-.eachdiv
-{
-	padding: 1.5rem 2rem;
+
+.eachdiv {
+    padding: 1.5rem 2rem;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 20px #6d6b6b41;
     color: white;
 }
-.div1
-{
-	background: #3f773f;
+
+.div1 {
+    background: #3f773f;
     grid-column: 1/3;
     grid-row: 1/2;
     background-repeat: no-repeat;
     background-position-x: 25rem;
 }
-.div2
-{
-	background:#49556B;
+
+.div2 {
+    background: #49556B;
     grid-column: 3/4;
     grid-row: 1/2;
 }
-.div3
-{
-	background: #e6ffe3;
+
+.div3 {
+    background: #e6ffe3;
     grid-column: 4/5;
     grid-row: 1/3;
     color: black;
 }
-.div4
-{
-	background: white;
-	grid-column: 1/2;
+
+.div4 {
+    background: white;
+    grid-column: 1/2;
     grid-row: 2/3;
     color: black;
 }
-.div5
-{
-	background: #18202D;
-	grid-column: 2/4;
+
+.div5 {
+    background: #18202D;
+    grid-column: 2/4;
     grid-row: 2/3;
 }
-.userdetails
-{
-	display: flex;
+
+.userdetails {
+    display: flex;
 }
-.imgbox
-{
-	margin-right: 1rem;
+
+.imgbox {
+    margin-right: 1rem;
 }
-.imgbox img
-{
-	border-radius: 50%;
-	width: 2rem;
-	border: 2px solid #cec5c5;
+
+.imgbox img {
+    border-radius: 50%;
+    width: 2rem;
+    border: 2px solid #cec5c5;
 }
-.detbox
-{
-	display: flex;
+
+.detbox {
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.detbox p
-{
-	margin: 0;
+
+.detbox p {
+    margin: 0;
 }
-.detbox .name
-{
-	color: hsl(0, 0%, 81%);
+
+.detbox .name {
+    color: hsl(0, 0%, 81%);
     font-size: 0.9rem;
     margin-bottom: 0.1rem;
     font-weight: 600;
 }
-.detbox .name.dark
-{
-	color: #49505A;
+
+.detbox .name.dark {
+    color: #49505A;
 }
-.detbox .designation
-{
-	color: hsl(0, 0%, 81%);
+
+.detbox .designation {
+    color: hsl(0, 0%, 81%);
     opacity: 50%;
     font-size: 0.8rem;
 }
-.detbox .designation.dark
-{
-	color: #49505A;
+
+.detbox .designation.dark {
+    color: #49505A;
 }
-.review h4
-{
-	font-size: 1.4rem;
-	color: #ffffff;
+
+.review h4 {
+    font-size: 1.4rem;
+    color: #ffffff;
     font-weight: 600;
-    line-height: 1.1;
+    line-height: 1.5;
     margin-bottom: 0.8rem;
 }
-.review.dark h4{
-	color: var(--text-secon);
+
+.review.dark h4 {
+    color: #4B5258;
 }
-.review p
-{
-	font-size: 0.95rem;
+
+.review p {
+    font-size: 0.95rem;
     color: #F3DEFF;
     font-weight: 500;
     opacity: 50%;
     line-height: 1.5;
 }
-.review.dark p{
-	color: #0e0e0e;
+
+.review.dark p {
+    color: #0e0e0e;
 }
 
 
-@media only screen and (max-width: 1000px)
-{
-	.innerdiv
-	{
-		transform: scale(0.7);
-	}
+/* ------------  order image section -------------------- */
+
+.order-section-image {
+    position: relative;
+    background: #1414144d;
+    background-image: url(https://images.unsplash.com/photo-1626372416494-3183a0c4f726?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=1280);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 30vh;
+    min-height: 30dvh;
+    width: 100%;
+    margin-bottom: 3rem;
 }
-@media only screen and (max-width: 800px)
-{
-	.innerdiv
-	{
-		transform: scale(0.6);
-	}
+/* .order-section-image::before {
+    text-align: center;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: fliter(blur(5px));
+    height: 100%;
+    background: #0000005d  ;
+} */
+.btn-order{
+    cursor: pointer;
+    z-index: 2;
+    font-size: 1.3rem;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    background-color: var(--green);
+    transition: .5s;
+    box-shadow: #40634277 5px 9px 15px;
 }
-@media only screen and (max-width: 600px)
-{
-	.div1 {
-		background-position-x: 10rem;
-	}
-	.innerdiv
-	{
-		display: flex; 
-		flex-direction: column;
-		transform: scale(1);
-		margin: 2rem;
-		margin-bottom: 5rem;
-	}
-	.attribution
-	{
-		position: relative;
-	}
+.btn-order:hover{
+    background-color: #ffbd39;
+    box-shadow: #f7bb42b0 5px 9px 15px;
 }
+
+.btn-order-container {
+    width: 100%;
+    min-height: 65vh;
+    min-height: 65dvh;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: #201f1f6e  ;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+@media only screen and (max-width: 1000px) {
+    .innerdiv {
+        transform: scale(0.7);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .innerdiv {
+        transform: scale(0.6);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .div1 {
+        background-position-x: 10rem;
+    }
+
+    .innerdiv {
+        display: flex;
+        flex-direction: column;
+        transform: scale(1);
+        margin: 2rem;
+        margin-bottom: 5rem;
+    }
+}
+
+
 
 /* -------------------------------  responsive --------------------------- */
 
@@ -448,10 +501,15 @@
     .about-description p {
         padding: 0;
     }
-    .diet-left{
+
+    .diet-left {
         overflow-x: scroll;
     }
-    .diet-left::-webkit-scrollbar{
+
+    .diet-left::-webkit-scrollbar {
         display: none;
     }
 }
+
+
+
