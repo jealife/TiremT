@@ -262,14 +262,21 @@
     right: 0%;
 }
 
-/* ---------------------- testimonial ---------------- */
-
+/* ---------------------- testimonials ---------------- */
+.testimonial{
+    padding: 45px 0 0 0;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfdfd;
+}
 .outerdiv {
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
     /* background: #0e2847; */
-    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,7 +286,7 @@
 
 .innerdiv {
     transform: scale(0.9);
-    margin: 1rem;
+    margin: 0 1rem;
     display: grid;
     grid-gap: 1.5rem;
     grid-template-rows: repeat(2, 22rem);
@@ -287,7 +294,7 @@
 }
 
 .eachdiv {
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1.5rem;
     border-radius: 0.8rem;
     box-shadow: 5px 5px 20px #6d6b6b41;
     color: white;
@@ -417,11 +424,13 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
-
-.btn-order {
-    cursor: pointer;
+.btn-order-container h2, .btn-order-container p{
+    color: #fff;
     z-index: 2;
-    font-size: 1.3rem;
+}
+.btn-order {
+    z-index: 2;
+    font-size: 1.2rem;
     padding: 0.8rem 2rem;
     border-radius: 50px;
     color: #fff;
@@ -437,6 +446,7 @@
 }
 
 .btn-order-container {
+    position: relative;
     background-image: url(https://images.unsplash.com/photo-1626372416494-3183a0c4f726?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=812&q=1280);
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,9 +455,11 @@
     min-height: 40vh;
     min-height: 40dvh;
     height: 100%;
-    display: grid;
-    position: relative;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 @media only screen and (max-width: 1000px) {
